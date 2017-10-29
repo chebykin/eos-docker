@@ -1,0 +1,15 @@
+= docker-compose file for running chebykin/eos image
+
+* Step #1. Fetch docker-compose.yml to your current folder
+
+[source,sh]
+----
+wget https://raw.githubusercontent.com/chebykin/eos-docker/master/docker-compose.yml
+----
+
+* Step #2. Run docker-compose
+
+[source,sh]
+----
+docker-compose -f docker-compose.yml up
+----
